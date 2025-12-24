@@ -1,0 +1,4 @@
+C:/Users/Lenovo/Desktop/Projet cpp/build/CMakeFiles/vision_oop.dir
+C:/Users/Lenovo/Desktop/Projet cpp/build/CMakeFiles/camera_test.dir
+C:/Users/Lenovo/Desktop/Projet cpp/build/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Projet cpp/build/CMakeFiles/rebuild_cache.dir
