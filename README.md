@@ -1,178 +1,169 @@
+# Vision OOP - Vision par Ordinateur en C++ avec OpenCV
 
-# Vision OOP (C++ / OpenCV) — Guide complet (Windows + MSYS2 UCRT64)
+Un projet de vision par ordinateur structuré en orienté objet utilisant OpenCV pour le traitement d'images en temps réel.
 
-Ce projet est un mini-framework orienté objet pour la vision par ordinateur en temps réel.
+## Table des Matières
+- [Architecture](#architecture)
+- [Prérequis](#prérequis)
+- [Installation de MSYS2](#installation-de-msys2)
+- [Récupération du projet](#récupération-du-projet)
+- [Compilation](#compilation)
+- [Exécution](#exécution)
+- [Tests](#tests)
+- [Dépannage](#dépannage)
+- [Structure du Projet](#structure-du-projet)
 
-Architecture générale :
+## Architecture
 
-**FrameSource → Pipeline(Filters) → OutputSink**
+Le projet suit une architecture orientée objet modulaire :
 
-Le dépôt contient aussi un exécutable **`camera_test`** permettant de vérifier que la webcam fonctionne correctement avant de lancer le programme principal.
+FrameSource → Pipeline (Filters) → OutputSink
 
----
+- **FrameSource** : Acquisition d'images (webcam, fichier vidéo)
+- **Pipeline** : Chaîne de traitement d'images (filtres, transformations)
+- **OutputSink** : Sortie (affichage, enregistrement, streaming)
 
-## 0) Prérequis
+Le dépôt inclut également un exécutable **camera_test** pour tester la webcam avant d'utiliser le programme principal.
 
-- Windows 10 ou Windows 11
-- Une webcam (intégrée ou USB)
-- MSYS2 installé
-- Terminal utilisé : **MSYS2 UCRT64** (important)
+## Prérequis
 
-> ⚠️ Ne pas utiliser WSL pour la webcam.
-> WSL ne donne pas toujours accès à la caméra (`/dev/video0`).
-> Pour ce projet, on travaille **en Windows natif**.
+- **Système d'exploitation** : Windows 10 / Windows 11
+- **Matériel** : Webcam (intégrée ou USB)
+- **Environnement** : MSYS2 installé
+- **Terminal** : **MSYS2 UCRT64** (utilisez ce terminal spécifiquement)
 
----
+⚠️ **Important** : Évitez WSL pour l'accès à la webcam. Le projet doit être exécuté en **Windows natif**.
 
-## 1) Installer MSYS2
+## Installation de MSYS2
 
-1. Télécharger MSYS2 depuis le site officiel
-2. Installer MSYS2 (exemple : `C:\msys64`)
-3. Ouvrir **“MSYS2 UCRT64”** depuis le menu Démarrer
+1. **Télécharger** MSYS2 depuis le site officiel (https://www.msys2.org/)
+2. **Installer** MSYS2 (exemple : C:\msys64)
+3. **Ouvrir** **MSYS2 UCRT64** depuis le menu Démarrer
 
-Le terminal doit afficher quelque chose comme :
-
+Le terminal doit afficher :
 UCRT64 /c/...
 
+### Installation des dépendances
 
----
+Dans **MSYS2 UCRT64** :
 
-## 2) Installer les packages nécessaires
-
-Dans **MSYS2 UCRT64**, exécuter :
-
-```bash
+1. Mettre à jour le système :
 pacman -Syu
 
-Si MSYS2 demande de fermer le terminal, fais‑le puis rouvre MSYS2 UCRT64, ensuite :
+Si MSYS2 demande de fermer le terminal, faites-le puis rouvrez **MSYS2 UCRT64**.
 
-pacman -S --needed \
-  mingw-w64-ucrt-x86_64-toolchain \
-  mingw-w64-ucrt-x86_64-cmake \
-  mingw-w64-ucrt-x86_64-opencv \
-  mingw-w64-ucrt-x86_64-qt6-base
+2. Installer les outils de compilation et dépendances :
+pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-opencv mingw-w64-ucrt-x86_64-qt6-base
 
-Pourquoi Qt6 ?
+**Pourquoi Qt6 ?**
+OpenCV (HighGUI) utilise Qt pour afficher les fenêtres (cv::imshow). Sans Qt6, l'exécution peut échouer avec des DLL manquantes (ex: Qt6Core.dll).
 
-OpenCV (module HighGUI) utilise Qt pour afficher les fenêtres (cv::imshow).
+## Récupération du projet
 
-Sans Qt6, le programme compile mais échoue à l’exécution avec des erreurs comme :
-
-    Qt6Core.dll introuvable
-
-    Qt6Gui.dll introuvable
-
-3) Récupérer le projet
-Option A — Cloner depuis GitHub
-
-Dans MSYS2 UCRT64 :
-
+### Option A — Cloner depuis GitHub
 cd /c/Users/Lenovo/Desktop
 git clone https://github.com/<TON_USERNAME>/<TON_REPO>.git
-cd "<TON_REPO>"
+cd <TON_REPO>
 
-Option B — Projet déjà présent sur le PC
-
+### Option B — Projet déjà présent sur le PC
 cd "/c/Users/Lenovo/Desktop/Projet cpp"
 
-Vérifier que les fichiers suivants existent :
+Vérifiez que ces éléments existent :
+- CMakeLists.txt
+- Répertoire src/
+- camera_test.cpp
 
-    CMakeLists.txt
+## Compilation (Build)
 
-    src/
+Depuis la racine du projet dans **MSYS2 UCRT64** :
 
-    camera_test.cpp
-
-ls
-
-4) Compiler le projet (Build)
-
-Depuis la racine du projet (là où se trouve CMakeLists.txt) :
-
+# Nettoyer les builds précédents (optionnel)
 rm -rf build
+
+# Configurer avec CMake
 cmake -S . -B build -G "MinGW Makefiles"
+
+# Compiler
 cmake --build build
 
-Si tout se passe bien, tu dois voir :
-
+**Résultat attendu :**
 Built target vision_oop
 Built target camera_test
 
-5) Exécution — point important
+## Exécution (IMPORTANT)
 
-Il ne faut PAS lancer directement ./vision_oop.exe ou ./camera_test.exe depuis MSYS2.
+**Note importante** : Ne pas lancer directement les .exe depuis MSYS2.
 
-Pourquoi ?
-Parce que Windows doit trouver les DLL OpenCV et Qt6, qui sont situées dans :
-
+Les DLL OpenCV et Qt se trouvent dans :
 C:\msys64\ucrt64\bin
 
-La solution la plus simple consiste à lancer les exécutables via CMD en ajoutant ce dossier au PATH.
-6) Tester la webcam (camera_test) — À FAIRE EN PREMIER
+Il faut donc lancer les programmes via CMD en ajoutant ce dossier au PATH.
 
-Depuis MSYS2 UCRT64, exécuter :
+## Tests
 
-cmd.exe /c "set PATH=C:\msys64\ucrt64\bin;%PATH% && cd /d \"C:\Users\Lenovo\Desktop\Projet cpp\build\" && camera_test.exe & pause"
+### Test webcam (camera_test)
 
-Résultat attendu :
+À faire en premier pour vérifier que la webcam fonctionne.
 
-    Une fenêtre cam_test s’ouvre
+Depuis **MSYS2 UCRT64** :
+cmd.exe /c "set PATH=C:\msys64\ucrt64\bin;%PATH% && cd /d C:\Users\Lenovo\Desktop\Projet cpp\build && camera_test.exe & pause"
 
-    La vidéo est affichée en temps réel
+**Attendu :**
+- Une fenêtre s'ouvre avec la vidéo en temps réel
+- Appuyez sur ESC pour quitter
+- pause garde la console ouverte après la fermeture
 
-    Appuyer sur ESC pour quitter
+### Lancer le programme principal (vision_oop)
 
-    La console reste ouverte (pause)
+Depuis **MSYS2 UCRT64** :
+cmd.exe /c "set PATH=C:\msys64\ucrt64\bin;%PATH% && cd /d C:\Users\Lenovo\Desktop\Projet cpp\build && vision_oop.exe & pause"
 
-Si la commande ne fonctionne pas depuis MSYS2
+**Attendu :**
+- Fenêtre "Vision OOP" s'ouvre
+- Flux vidéo de la webcam en temps réel
+- Appuyez sur ESC pour quitter
 
-Exécute exactement la même commande directement depuis CMD ou PowerShell.
-7) Lancer le programme principal (vision_oop)
+## Dépannage
 
-Depuis MSYS2 UCRT64 :
+### DLL Qt manquantes (ex: Qt6Core.dll introuvable)
+- Vérifier l'installation de mingw-w64-ucrt-x86_64-qt6-base
+- S'assurer d'utiliser la commande cmd.exe /c "set PATH=... && ..."
+- Vérifier que C:\msys64\ucrt64\bin est bien dans le PATH
 
-cmd.exe /c "set PATH=C:\msys64\ucrt64\bin;%PATH% && cd /d \"C:\Users\Lenovo\Desktop\Projet cpp\build\" && vision_oop.exe & pause"
+### Webcam noire / pas d'image
+1. **Fermer** toutes les applications utilisant la webcam :
+   - Teams / Discord / Zoom
+   - Chrome / Firefox
+   - OBS / autres logiciels de capture
+2. **Vérifier** les permissions caméra dans Windows Paramètres
+3. **Tester** plusieurs index caméra (0, 1, 2) dans le code
+4. Redémarrer l'ordinateur si nécessaire
 
-Résultat attendu :
+### Erreurs de compilation
+- S'assurer d'utiliser MSYS2 UCRT64 et non un autre terminal MSYS2
+- Vérifier que toutes les dépendances sont installées
+- Nettoyer le répertoire build et recompiler
 
-    Une fenêtre Vision OOP s’ouvre
+## Structure du Projet
 
-    La webcam est affichée en temps réel
+Projet cpp/
+├── CMakeLists.txt          # Configuration CMake
+├── src/                    # Code source principal
+│   ├── main.cpp
+│   ├── FrameSource.cpp
+│   ├── FrameSource.h
+│   ├── FilterPipeline.cpp
+│   ├── FilterPipeline.h
+│   ├── OutputSink.cpp
+│   └── OutputSink.h
+├── camera_test.cpp         # Programme de test webcam
+├── README.md               # Ce fichier
+└── build/                  # Généré par CMake (à ignorer)
 
-    Appuyer sur ESC pour quitter
+## Licence
 
-8) Problèmes fréquents et solutions
-A) DLL Qt manquantes
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-Erreur du type :
+## Contact
 
-Qt6Core.dll introuvable
-
-Solution :
-
-    Vérifier que mingw-w64-ucrt-x86_64-qt6-base est installé
-
-    Toujours lancer les exécutables avec :
-
-    set PATH=C:\msys64\ucrt64\bin;%PATH%
-
-B) Webcam noire ou aucune image
-
-    Fermer les applications utilisant la caméra :
-    Teams, Discord, Zoom, Chrome, OBS
-
-    Essayer différents index caméra (0, 1, 2)
-
-    Vérifier les permissions Windows :
-
-        Settings → Privacy & security → Camera
-
-        Camera access = ON
-
-        Let desktop apps access your camera = ON
-
-C) Le programme se ferme immédiatement
-
-    Tester d’abord camera_test
-
-    Si camera_test fonctionne, le problème vient du code du pipeline principal
+Pour toute question ou problème, ouvrez une issue sur le dépôt GitHub.
