@@ -7,7 +7,7 @@
 class VisionApp {
 public:
     VisionApp(std::unique_ptr<IFrameSource> source,
-              Pipeline pipeline,
+              Pipeline&& pipeline,
               std::unique_ptr<IOutputSink> sink);
 
     void run();
