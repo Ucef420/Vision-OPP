@@ -4,13 +4,18 @@
 #include "filter/DummyFilter.hpp"
 #include "output/WindowSink.hpp"
 #include <iostream>
+#include "filter/EdgeFilter.hpp"
+#include "filter/NegativeFilter.hpp"
+#include "filter/PixelFilter.hpp"
+#include "filter/PseudoColorFilter.hpp"
+#include "filter/CartoonFilter.hpp"
 
 int main() {
     std::cerr << "=== DEBUT ===" << std::endl;
     
     try {
         std::cerr << "Tentative ouverture camera..." << std::endl;
-        auto source = std::make_unique<CameraSource>(1);  // Index 0 au lieu de 2
+        auto source = std::make_unique<CameraSource>(0);  // Index 0 au lieu de 2
         std::cerr << "Camera ouverte!" << std::endl;
 
         std::cerr << "Creation fenetre..." << std::endl;
@@ -21,7 +26,9 @@ int main() {
         Pipeline pipeline;
         pipeline.addFilter(std::make_unique<DummyFilter>());
         std::cerr << "Pipeline pret!" << std::endl;
-
+        pipeline.addFilter(std::make_unique<PseudoColorFilter>());        
+        pipeline.addFilter(std::make_unique<NegativeFilter>());        
+        
         std::cerr << "Demarrage application..." << std::endl;
         VisionApp app(std::move(source), std::move(pipeline), std::move(sink));
         

@@ -189,6 +189,30 @@ src/app/VisionApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.s
 .PHONY : src/app/VisionApp.cpp.s
 
+src/filter/CartoonFilter.obj: src/filter/CartoonFilter.cpp.obj
+.PHONY : src/filter/CartoonFilter.obj
+
+# target to build an object file
+src/filter/CartoonFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj
+.PHONY : src/filter/CartoonFilter.cpp.obj
+
+src/filter/CartoonFilter.i: src/filter/CartoonFilter.cpp.i
+.PHONY : src/filter/CartoonFilter.i
+
+# target to preprocess a source file
+src/filter/CartoonFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.i
+.PHONY : src/filter/CartoonFilter.cpp.i
+
+src/filter/CartoonFilter.s: src/filter/CartoonFilter.cpp.s
+.PHONY : src/filter/CartoonFilter.s
+
+# target to generate assembly for a file
+src/filter/CartoonFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.s
+.PHONY : src/filter/CartoonFilter.cpp.s
+
 src/filter/DummyFilter.obj: src/filter/DummyFilter.cpp.obj
 .PHONY : src/filter/DummyFilter.obj
 
@@ -212,6 +236,102 @@ src/filter/DummyFilter.s: src/filter/DummyFilter.cpp.s
 src/filter/DummyFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/DummyFilter.cpp.s
 .PHONY : src/filter/DummyFilter.cpp.s
+
+src/filter/EdgeFilter.obj: src/filter/EdgeFilter.cpp.obj
+.PHONY : src/filter/EdgeFilter.obj
+
+# target to build an object file
+src/filter/EdgeFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.obj
+.PHONY : src/filter/EdgeFilter.cpp.obj
+
+src/filter/EdgeFilter.i: src/filter/EdgeFilter.cpp.i
+.PHONY : src/filter/EdgeFilter.i
+
+# target to preprocess a source file
+src/filter/EdgeFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.i
+.PHONY : src/filter/EdgeFilter.cpp.i
+
+src/filter/EdgeFilter.s: src/filter/EdgeFilter.cpp.s
+.PHONY : src/filter/EdgeFilter.s
+
+# target to generate assembly for a file
+src/filter/EdgeFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.s
+.PHONY : src/filter/EdgeFilter.cpp.s
+
+src/filter/NegativeFilter.obj: src/filter/NegativeFilter.cpp.obj
+.PHONY : src/filter/NegativeFilter.obj
+
+# target to build an object file
+src/filter/NegativeFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj
+.PHONY : src/filter/NegativeFilter.cpp.obj
+
+src/filter/NegativeFilter.i: src/filter/NegativeFilter.cpp.i
+.PHONY : src/filter/NegativeFilter.i
+
+# target to preprocess a source file
+src/filter/NegativeFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.i
+.PHONY : src/filter/NegativeFilter.cpp.i
+
+src/filter/NegativeFilter.s: src/filter/NegativeFilter.cpp.s
+.PHONY : src/filter/NegativeFilter.s
+
+# target to generate assembly for a file
+src/filter/NegativeFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.s
+.PHONY : src/filter/NegativeFilter.cpp.s
+
+src/filter/PixelFilter.obj: src/filter/PixelFilter.cpp.obj
+.PHONY : src/filter/PixelFilter.obj
+
+# target to build an object file
+src/filter/PixelFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj
+.PHONY : src/filter/PixelFilter.cpp.obj
+
+src/filter/PixelFilter.i: src/filter/PixelFilter.cpp.i
+.PHONY : src/filter/PixelFilter.i
+
+# target to preprocess a source file
+src/filter/PixelFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.i
+.PHONY : src/filter/PixelFilter.cpp.i
+
+src/filter/PixelFilter.s: src/filter/PixelFilter.cpp.s
+.PHONY : src/filter/PixelFilter.s
+
+# target to generate assembly for a file
+src/filter/PixelFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.s
+.PHONY : src/filter/PixelFilter.cpp.s
+
+src/filter/PseudoColorFilter.obj: src/filter/PseudoColorFilter.cpp.obj
+.PHONY : src/filter/PseudoColorFilter.obj
+
+# target to build an object file
+src/filter/PseudoColorFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj
+.PHONY : src/filter/PseudoColorFilter.cpp.obj
+
+src/filter/PseudoColorFilter.i: src/filter/PseudoColorFilter.cpp.i
+.PHONY : src/filter/PseudoColorFilter.i
+
+# target to preprocess a source file
+src/filter/PseudoColorFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.i
+.PHONY : src/filter/PseudoColorFilter.cpp.i
+
+src/filter/PseudoColorFilter.s: src/filter/PseudoColorFilter.cpp.s
+.PHONY : src/filter/PseudoColorFilter.s
+
+# target to generate assembly for a file
+src/filter/PseudoColorFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.s
+.PHONY : src/filter/PseudoColorFilter.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -325,9 +445,24 @@ help:
 	@echo ... src/app/VisionApp.obj
 	@echo ... src/app/VisionApp.i
 	@echo ... src/app/VisionApp.s
+	@echo ... src/filter/CartoonFilter.obj
+	@echo ... src/filter/CartoonFilter.i
+	@echo ... src/filter/CartoonFilter.s
 	@echo ... src/filter/DummyFilter.obj
 	@echo ... src/filter/DummyFilter.i
 	@echo ... src/filter/DummyFilter.s
+	@echo ... src/filter/EdgeFilter.obj
+	@echo ... src/filter/EdgeFilter.i
+	@echo ... src/filter/EdgeFilter.s
+	@echo ... src/filter/NegativeFilter.obj
+	@echo ... src/filter/NegativeFilter.i
+	@echo ... src/filter/NegativeFilter.s
+	@echo ... src/filter/PixelFilter.obj
+	@echo ... src/filter/PixelFilter.i
+	@echo ... src/filter/PixelFilter.s
+	@echo ... src/filter/PseudoColorFilter.obj
+	@echo ... src/filter/PseudoColorFilter.i
+	@echo ... src/filter/PseudoColorFilter.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

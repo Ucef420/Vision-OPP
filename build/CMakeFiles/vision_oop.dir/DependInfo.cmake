@@ -9,7 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lenovo/Desktop/Projet cpp/src/app/VisionApp.cpp" "CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/CartoonFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/DummyFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/DummyFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/DummyFilter.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/EdgeFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/NegativeFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/PixelFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/PseudoColorFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/main.cpp" "CMakeFiles/vision_oop.dir/src/main.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/main.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/output/WindowSink.cpp" "CMakeFiles/vision_oop.dir/src/output/WindowSink.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/output/WindowSink.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/pipeline/Pipeline.cpp" "CMakeFiles/vision_oop.dir/src/pipeline/Pipeline.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/pipeline/Pipeline.cpp.obj.d"

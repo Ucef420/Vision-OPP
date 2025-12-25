@@ -16,6 +16,11 @@ add_executable(vision_oop
     src/pipeline/Pipeline.cpp
     src/filter/DummyFilter.cpp
     src/output/WindowSink.cpp
+    src/filter/EdgeFilter.cpp
+    src/filter/PixelFilter.cpp
+    src/filter/PseudoColorFilter.cpp
+    src/filter/NegativeFilter.cpp
+    src/filter/CartoonFilter.cpp
 )
 add_executable(camera_test camera_test.cpp)
 target_link_libraries(camera_test PRIVATE ${OpenCV_LIBS})

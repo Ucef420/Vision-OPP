@@ -371,4 +371,9 @@ CMakeFiles/vision_oop.dir/src/main.cpp.obj: \
  C:/Users/Lenovo/Desktop/PROJET~1/src/output/IOutputSink.hpp \
  C:\Users\Lenovo\Desktop\Projet\ cpp\src\source/CameraSource.hpp \
  C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/DummyFilter.hpp \
- C:\Users\Lenovo\Desktop\Projet\ cpp\src\output/WindowSink.hpp
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\output/WindowSink.hpp \
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/EdgeFilter.hpp \
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/NegativeFilter.hpp \
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/PixelFilter.hpp \
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/PseudoColorFilter.hpp \
+ C:\Users\Lenovo\Desktop\Projet\ cpp\src\filter/CartoonFilter.hpp

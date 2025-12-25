@@ -1,10 +1,15 @@
 #include "CameraSource.hpp"
-#include <stdexcept>
 #include <opencv2/opencv.hpp>
+#include <stdexcept>
+#include <iostream>
 
 CameraSource::CameraSource(int index) {
-    if (!cap_.open(index, cv::CAP_DSHOW)) {
-        throw std::runtime_error("Impossible d'ouvrir la caméra (CAP_DSHOW)");
+    std::cerr << "[CameraSource] trying index=" << index << " api=DSHOW\n";
+
+    cap_ = cv::VideoCapture(index, cv::CAP_DSHOW); // EXACTEMENT comme camera_test
+
+    if (!cap_.isOpened()) {
+        throw std::runtime_error("Impossible d'ouvrir la camera (CAP_DSHOW)");
     }
 }
 
