@@ -1,6 +1,6 @@
 CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:\Users\Lenovo\Desktop\Projet\ cpp\src\app\VisionApp.cpp \
- C:\Users\Lenovo\Desktop\Projet\ cpp\src\app\VisionApp.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/app/VisionApp.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/memory \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -103,44 +103,6 @@ CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
- C:/Users/Lenovo/Desktop/PROJET~1/src/source/IFrameSource.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/opencv.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cvdef.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/version.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/limits \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/hal/interface.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cstddef \
- C:/msys64/ucrt64/include/c++/15.2.0/cstdint \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/c++/15.2.0/stdlib.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cstdlib \
- C:/msys64/ucrt64/include/stdlib.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/std_abs.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/base.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/climits \
- C:/msys64/ucrt64/include/c++/15.2.0/algorithm \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/algorithmfwd.h \
- C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
- C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cvstd.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/cstring \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cctype \
- C:/msys64/ucrt64/include/ctype.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h \
@@ -148,19 +110,59 @@ CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/clocale \
  C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cctype \
+ C:/msys64/ucrt64/include/ctype.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream_insert.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/range_access.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string_view \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/string_conversions.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cstdlib \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/stdlib.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cstdio \
  C:/msys64/ucrt64/include/c++/15.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/charconv.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/memory_resource.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cstddef \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/vector \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/cvdef.h \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/version.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/limits \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/hal/interface.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cstdint \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/base.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/climits \
+ C:/msys64/ucrt64/include/c++/15.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/opencv4/opencv2/core/cvstd.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/cstring \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
  C:/msys64/ucrt64/include/c++/15.2.0/utility \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cmath \
@@ -192,10 +194,6 @@ CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/cfloat \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  C:/msys64/ucrt64/include/float.h \
- C:/msys64/ucrt64/include/c++/15.2.0/vector \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/mat.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/bufferpool.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/array \
@@ -250,6 +248,8 @@ CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/optim.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/ovx.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/cvdef.h \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/source/IFrameSource.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/opencv.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/calib3d.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/features2d.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -366,6 +366,7 @@ CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/video.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/video/tracking.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/video/background_segm.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/pipeline/Pipeline.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/output/IOutputSink.hpp \
  C:/Users/Lenovo/Desktop/PROJET~1/src/filter/IFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/output/IOutputSink.hpp
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/FilterFactory.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/IHasUI.hpp

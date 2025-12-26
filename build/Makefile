@@ -261,6 +261,78 @@ src/filter/EdgeFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.s
 .PHONY : src/filter/EdgeFilter.cpp.s
 
+src/filter/FilterFactory.obj: src/filter/FilterFactory.cpp.obj
+.PHONY : src/filter/FilterFactory.obj
+
+# target to build an object file
+src/filter/FilterFactory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj
+.PHONY : src/filter/FilterFactory.cpp.obj
+
+src/filter/FilterFactory.i: src/filter/FilterFactory.cpp.i
+.PHONY : src/filter/FilterFactory.i
+
+# target to preprocess a source file
+src/filter/FilterFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.i
+.PHONY : src/filter/FilterFactory.cpp.i
+
+src/filter/FilterFactory.s: src/filter/FilterFactory.cpp.s
+.PHONY : src/filter/FilterFactory.s
+
+# target to generate assembly for a file
+src/filter/FilterFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.s
+.PHONY : src/filter/FilterFactory.cpp.s
+
+src/filter/GlassesFilter.obj: src/filter/GlassesFilter.cpp.obj
+.PHONY : src/filter/GlassesFilter.obj
+
+# target to build an object file
+src/filter/GlassesFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj
+.PHONY : src/filter/GlassesFilter.cpp.obj
+
+src/filter/GlassesFilter.i: src/filter/GlassesFilter.cpp.i
+.PHONY : src/filter/GlassesFilter.i
+
+# target to preprocess a source file
+src/filter/GlassesFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.i
+.PHONY : src/filter/GlassesFilter.cpp.i
+
+src/filter/GlassesFilter.s: src/filter/GlassesFilter.cpp.s
+.PHONY : src/filter/GlassesFilter.s
+
+# target to generate assembly for a file
+src/filter/GlassesFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.s
+.PHONY : src/filter/GlassesFilter.cpp.s
+
+src/filter/MirrorFilter.obj: src/filter/MirrorFilter.cpp.obj
+.PHONY : src/filter/MirrorFilter.obj
+
+# target to build an object file
+src/filter/MirrorFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj
+.PHONY : src/filter/MirrorFilter.cpp.obj
+
+src/filter/MirrorFilter.i: src/filter/MirrorFilter.cpp.i
+.PHONY : src/filter/MirrorFilter.i
+
+# target to preprocess a source file
+src/filter/MirrorFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.i
+.PHONY : src/filter/MirrorFilter.cpp.i
+
+src/filter/MirrorFilter.s: src/filter/MirrorFilter.cpp.s
+.PHONY : src/filter/MirrorFilter.s
+
+# target to generate assembly for a file
+src/filter/MirrorFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.s
+.PHONY : src/filter/MirrorFilter.cpp.s
+
 src/filter/NegativeFilter.obj: src/filter/NegativeFilter.cpp.obj
 .PHONY : src/filter/NegativeFilter.obj
 
@@ -454,6 +526,15 @@ help:
 	@echo ... src/filter/EdgeFilter.obj
 	@echo ... src/filter/EdgeFilter.i
 	@echo ... src/filter/EdgeFilter.s
+	@echo ... src/filter/FilterFactory.obj
+	@echo ... src/filter/FilterFactory.i
+	@echo ... src/filter/FilterFactory.s
+	@echo ... src/filter/GlassesFilter.obj
+	@echo ... src/filter/GlassesFilter.i
+	@echo ... src/filter/GlassesFilter.s
+	@echo ... src/filter/MirrorFilter.obj
+	@echo ... src/filter/MirrorFilter.i
+	@echo ... src/filter/MirrorFilter.s
 	@echo ... src/filter/NegativeFilter.obj
 	@echo ... src/filter/NegativeFilter.i
 	@echo ... src/filter/NegativeFilter.s

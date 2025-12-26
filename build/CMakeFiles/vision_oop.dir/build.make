@@ -236,6 +236,51 @@ CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\CartoonFilter.cpp" -o CMakeFiles\vision_oop.dir\src\filter\CartoonFilter.cpp.s
 
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/filter/GlassesFilter.cpp
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj -MF CMakeFiles\vision_oop.dir\src\filter\GlassesFilter.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\filter\GlassesFilter.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\GlassesFilter.cpp"
+
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\GlassesFilter.cpp" > CMakeFiles\vision_oop.dir\src\filter\GlassesFilter.cpp.i
+
+CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\GlassesFilter.cpp" -o CMakeFiles\vision_oop.dir\src\filter\GlassesFilter.cpp.s
+
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/filter/MirrorFilter.cpp
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj -MF CMakeFiles\vision_oop.dir\src\filter\MirrorFilter.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\filter\MirrorFilter.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\MirrorFilter.cpp"
+
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\MirrorFilter.cpp" > CMakeFiles\vision_oop.dir\src\filter\MirrorFilter.cpp.i
+
+CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\MirrorFilter.cpp" -o CMakeFiles\vision_oop.dir\src\filter\MirrorFilter.cpp.s
+
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/filter/FilterFactory.cpp
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj -MF CMakeFiles\vision_oop.dir\src\filter\FilterFactory.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\filter\FilterFactory.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\FilterFactory.cpp"
+
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\FilterFactory.cpp" > CMakeFiles\vision_oop.dir\src\filter\FilterFactory.cpp.i
+
+CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\FilterFactory.cpp" -o CMakeFiles\vision_oop.dir\src\filter\FilterFactory.cpp.s
+
 # Object files for target vision_oop
 vision_oop_OBJECTS = \
 "CMakeFiles/vision_oop.dir/src/main.cpp.obj" \
@@ -248,7 +293,10 @@ vision_oop_OBJECTS = \
 "CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj" \
 "CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj" \
 "CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj" \
-"CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj"
+"CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj"
 
 # External object files for target vision_oop
 vision_oop_EXTERNAL_OBJECTS =
@@ -264,6 +312,9 @@ vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/build.make
 vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_gapi.dll.a
 vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_stitching.dll.a
@@ -326,7 +377,7 @@ vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_core.dll.a
 vision_oop.exe: CMakeFiles/vision_oop.dir/linkLibs.rsp
 vision_oop.exe: CMakeFiles/vision_oop.dir/objects1.rsp
 vision_oop.exe: CMakeFiles/vision_oop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable vision_oop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable vision_oop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vision_oop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

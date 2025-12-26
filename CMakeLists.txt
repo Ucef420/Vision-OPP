@@ -21,6 +21,9 @@ add_executable(vision_oop
     src/filter/PseudoColorFilter.cpp
     src/filter/NegativeFilter.cpp
     src/filter/CartoonFilter.cpp
+    src/filter/GlassesFilter.cpp
+    src/filter/MirrorFilter.cpp
+    src/filter/FilterFactory.cpp
 )
 add_executable(camera_test camera_test.cpp)
 target_link_libraries(camera_test PRIVATE ${OpenCV_LIBS})

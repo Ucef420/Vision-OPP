@@ -1,45 +1,45 @@
 #include "app/VisionApp.hpp"
 #include "source/CameraSource.hpp"
-#include "pipeline/Pipeline.hpp"
-#include "filter/DummyFilter.hpp"
 #include "output/WindowSink.hpp"
 #include <iostream>
-#include "filter/EdgeFilter.hpp"
-#include "filter/NegativeFilter.hpp"
-#include "filter/PixelFilter.hpp"
-#include "filter/PseudoColorFilter.hpp"
-#include "filter/CartoonFilter.hpp"
 
 int main() {
-    std::cerr << "=== DEBUT ===" << std::endl;
-    
+    std::cerr << "=== DEBUT PROGRAMME ===" << std::endl;
+
     try {
-        std::cerr << "Tentative ouverture camera..." << std::endl;
-        auto source = std::make_unique<CameraSource>(0);  // Index 0 au lieu de 2
-        std::cerr << "Camera ouverte!" << std::endl;
+        // 1) Création de la source vidéo (webcam)
+        std::cerr << "[MAIN] Tentative ouverture camera..." << std::endl;
+        auto source = std::make_unique<CameraSource>(0);
+        std::cerr << "[MAIN] Camera ouverte avec succes." << std::endl;
 
-        std::cerr << "Creation fenetre..." << std::endl;
+        // 2) Création de la fenêtre de sortie
+        std::cerr << "[MAIN] Creation de la fenetre..." << std::endl;
         auto sink = std::make_unique<WindowSink>("Vision OOP");
-        std::cerr << "Fenetre creee!" << std::endl;
+        std::cerr << "[MAIN] Fenetre creee." << std::endl;
 
-        std::cerr << "Configuration pipeline..." << std::endl;
-        Pipeline pipeline;
-        pipeline.addFilter(std::make_unique<DummyFilter>());
-        std::cerr << "Pipeline pret!" << std::endl;
-        pipeline.addFilter(std::make_unique<PseudoColorFilter>());        
-        pipeline.addFilter(std::make_unique<NegativeFilter>());        
-        
-        std::cerr << "Demarrage application..." << std::endl;
-        VisionApp app(std::move(source), std::move(pipeline), std::move(sink));
-        
-        std::cerr << "Lancement boucle..." << std::endl;
+        // 3) Création de l'application principale
+        // VisionApp gère maintenant :
+        // - les filtres gauche / droite
+        // - le clavier
+        // - les trackbars (UI)
+        // - le split-screen
+        std::cerr << "[MAIN] Creation de VisionApp..." << std::endl;
+        VisionApp app(
+            std::move(source),
+            std::move(sink)
+        );
+        std::cerr << "[MAIN] VisionApp creee." << std::endl;
+
+        // 4) Lancement de la boucle principale
+        std::cerr << "[MAIN] Lancement de la boucle principale..." << std::endl;
         app.run();
-        
-        std::cerr << "Fin normale" << std::endl;
+
+        std::cerr << "[MAIN] Fin normale du programme." << std::endl;
+
     } catch (const std::exception& e) {
-        std::cerr << "ERREUR: " << e.what() << std::endl;
+        std::cerr << "[MAIN] ERREUR FATALE: " << e.what() << std::endl;
         return 1;
     }
-    
+
     return 0;
 }
