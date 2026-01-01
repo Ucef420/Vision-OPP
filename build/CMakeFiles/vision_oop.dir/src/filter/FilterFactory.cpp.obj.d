@@ -135,8 +135,6 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/cstddef \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
  C:/Users/Lenovo/Desktop/PROJET~1/src/filter/IFilter.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/opencv.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/cvdef.h \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/version.hpp \
@@ -150,6 +148,7 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/base.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/climits \
  C:/msys64/ucrt64/include/c++/15.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
@@ -250,16 +249,10 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/optim.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/ovx.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/cvdef.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/calib3d.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/features2d.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/miniflann.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/defines.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/config.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/affine.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/utils/logger.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/iostream \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/utils/logger.defines.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/utils/logtag.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/BackgroundCompositeFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/IHasUI.hpp \
+ C:/Users/Lenovo/Desktop/Projet\ cpp/src/background/IBackgroundProvider.hpp \
+ C:/Users/Lenovo/Desktop/Projet\ cpp/src/matting/DnnMatteEstimator.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/dnn.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/dnn/dnn.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core/async.hpp \
@@ -274,59 +267,14 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/dnn/dnn.inl.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/dnn/dnn.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/flann_base.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/general.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/matrix.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/params.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/any.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/defines.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/saving.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/nn_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/result_set.h \
- C:/msys64/ucrt64/include/c++/15.2.0/set \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/all_indices.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/kdtree_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/dynamic_bitset.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/dist.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/heap.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/allocator.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/random.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/kdtree_single_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/kmeans_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/logger.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
- C:/msys64/ucrt64/include/stdarg.h \
- C:/msys64/ucrt64/include/_mingw_stdarg.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/composite_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/linear_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/lsh_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/lsh_table.h \
- C:/msys64/ucrt64/include/c++/15.2.0/iomanip \
- C:/msys64/ucrt64/include/c++/15.2.0/locale \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/quoted_string.h \
- C:/msys64/ucrt64/include/c++/15.2.0/math.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/autotuned_index.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/ground_truth.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/index_testing.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/timer.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/flann/sampling.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/highgui.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/imgcodecs.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/videoio.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/imgproc.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/imgproc/segmentation.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/ml.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/ml/ml.inl.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/background/ParticlesBackground.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/MirrorFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/NegativeFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/PixelFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/PseudoColorFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/CartoonFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/EdgeFilter.hpp \
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/GlassesFilter.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
@@ -336,41 +284,6 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect/face.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/objdetect/barcode.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/photo.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/warpers.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/warpers.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cuda.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cuda_types.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/core/cuda.inl.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/warpers.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/matchers.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/matchers.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/util.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/list \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_list.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/list.tcc \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/queue \
- C:/msys64/ucrt64/include/c++/15.2.0/deque \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_deque.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/deque.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_queue.h \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/camera.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/blenders.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/stitching/detail/camera.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/video.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/video/tracking.hpp \
- C:/msys64/ucrt64/include/opencv4/opencv2/video/background_segm.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/MirrorFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/NegativeFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/IHasUI.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/PixelFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/PseudoColorFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/CartoonFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/EdgeFilter.hpp \
- C:/Users/Lenovo/Desktop/PROJET~1/src/filter/GlassesFilter.hpp
+ C:/Users/Lenovo/Desktop/PROJET~1/src/filter/PortraitBlurFilter.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/imgproc.hpp \
+ C:/msys64/ucrt64/include/opencv4/opencv2/imgproc/segmentation.hpp

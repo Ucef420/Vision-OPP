@@ -189,6 +189,78 @@ src/app/VisionApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.s
 .PHONY : src/app/VisionApp.cpp.s
 
+src/background/ParticlesBackground.obj: src/background/ParticlesBackground.cpp.obj
+.PHONY : src/background/ParticlesBackground.obj
+
+# target to build an object file
+src/background/ParticlesBackground.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj
+.PHONY : src/background/ParticlesBackground.cpp.obj
+
+src/background/ParticlesBackground.i: src/background/ParticlesBackground.cpp.i
+.PHONY : src/background/ParticlesBackground.i
+
+# target to preprocess a source file
+src/background/ParticlesBackground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.i
+.PHONY : src/background/ParticlesBackground.cpp.i
+
+src/background/ParticlesBackground.s: src/background/ParticlesBackground.cpp.s
+.PHONY : src/background/ParticlesBackground.s
+
+# target to generate assembly for a file
+src/background/ParticlesBackground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.s
+.PHONY : src/background/ParticlesBackground.cpp.s
+
+src/background/VideoLoopBackground.obj: src/background/VideoLoopBackground.cpp.obj
+.PHONY : src/background/VideoLoopBackground.obj
+
+# target to build an object file
+src/background/VideoLoopBackground.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj
+.PHONY : src/background/VideoLoopBackground.cpp.obj
+
+src/background/VideoLoopBackground.i: src/background/VideoLoopBackground.cpp.i
+.PHONY : src/background/VideoLoopBackground.i
+
+# target to preprocess a source file
+src/background/VideoLoopBackground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.i
+.PHONY : src/background/VideoLoopBackground.cpp.i
+
+src/background/VideoLoopBackground.s: src/background/VideoLoopBackground.cpp.s
+.PHONY : src/background/VideoLoopBackground.s
+
+# target to generate assembly for a file
+src/background/VideoLoopBackground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.s
+.PHONY : src/background/VideoLoopBackground.cpp.s
+
+src/filter/BackgroundCompositeFilter.obj: src/filter/BackgroundCompositeFilter.cpp.obj
+.PHONY : src/filter/BackgroundCompositeFilter.obj
+
+# target to build an object file
+src/filter/BackgroundCompositeFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj
+.PHONY : src/filter/BackgroundCompositeFilter.cpp.obj
+
+src/filter/BackgroundCompositeFilter.i: src/filter/BackgroundCompositeFilter.cpp.i
+.PHONY : src/filter/BackgroundCompositeFilter.i
+
+# target to preprocess a source file
+src/filter/BackgroundCompositeFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.i
+.PHONY : src/filter/BackgroundCompositeFilter.cpp.i
+
+src/filter/BackgroundCompositeFilter.s: src/filter/BackgroundCompositeFilter.cpp.s
+.PHONY : src/filter/BackgroundCompositeFilter.s
+
+# target to generate assembly for a file
+src/filter/BackgroundCompositeFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.s
+.PHONY : src/filter/BackgroundCompositeFilter.cpp.s
+
 src/filter/CartoonFilter.obj: src/filter/CartoonFilter.cpp.obj
 .PHONY : src/filter/CartoonFilter.obj
 
@@ -381,6 +453,30 @@ src/filter/PixelFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.s
 .PHONY : src/filter/PixelFilter.cpp.s
 
+src/filter/PortraitBlurFilter.obj: src/filter/PortraitBlurFilter.cpp.obj
+.PHONY : src/filter/PortraitBlurFilter.obj
+
+# target to build an object file
+src/filter/PortraitBlurFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj
+.PHONY : src/filter/PortraitBlurFilter.cpp.obj
+
+src/filter/PortraitBlurFilter.i: src/filter/PortraitBlurFilter.cpp.i
+.PHONY : src/filter/PortraitBlurFilter.i
+
+# target to preprocess a source file
+src/filter/PortraitBlurFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.i
+.PHONY : src/filter/PortraitBlurFilter.cpp.i
+
+src/filter/PortraitBlurFilter.s: src/filter/PortraitBlurFilter.cpp.s
+.PHONY : src/filter/PortraitBlurFilter.s
+
+# target to generate assembly for a file
+src/filter/PortraitBlurFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.s
+.PHONY : src/filter/PortraitBlurFilter.cpp.s
+
 src/filter/PseudoColorFilter.obj: src/filter/PseudoColorFilter.cpp.obj
 .PHONY : src/filter/PseudoColorFilter.obj
 
@@ -428,6 +524,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/matting/DnnMatteEstimator.obj: src/matting/DnnMatteEstimator.cpp.obj
+.PHONY : src/matting/DnnMatteEstimator.obj
+
+# target to build an object file
+src/matting/DnnMatteEstimator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj
+.PHONY : src/matting/DnnMatteEstimator.cpp.obj
+
+src/matting/DnnMatteEstimator.i: src/matting/DnnMatteEstimator.cpp.i
+.PHONY : src/matting/DnnMatteEstimator.i
+
+# target to preprocess a source file
+src/matting/DnnMatteEstimator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.i
+.PHONY : src/matting/DnnMatteEstimator.cpp.i
+
+src/matting/DnnMatteEstimator.s: src/matting/DnnMatteEstimator.cpp.s
+.PHONY : src/matting/DnnMatteEstimator.s
+
+# target to generate assembly for a file
+src/matting/DnnMatteEstimator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vision_oop.dir\build.make CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.s
+.PHONY : src/matting/DnnMatteEstimator.cpp.s
 
 src/output/WindowSink.obj: src/output/WindowSink.cpp.obj
 .PHONY : src/output/WindowSink.obj
@@ -517,6 +637,15 @@ help:
 	@echo ... src/app/VisionApp.obj
 	@echo ... src/app/VisionApp.i
 	@echo ... src/app/VisionApp.s
+	@echo ... src/background/ParticlesBackground.obj
+	@echo ... src/background/ParticlesBackground.i
+	@echo ... src/background/ParticlesBackground.s
+	@echo ... src/background/VideoLoopBackground.obj
+	@echo ... src/background/VideoLoopBackground.i
+	@echo ... src/background/VideoLoopBackground.s
+	@echo ... src/filter/BackgroundCompositeFilter.obj
+	@echo ... src/filter/BackgroundCompositeFilter.i
+	@echo ... src/filter/BackgroundCompositeFilter.s
 	@echo ... src/filter/CartoonFilter.obj
 	@echo ... src/filter/CartoonFilter.i
 	@echo ... src/filter/CartoonFilter.s
@@ -541,12 +670,18 @@ help:
 	@echo ... src/filter/PixelFilter.obj
 	@echo ... src/filter/PixelFilter.i
 	@echo ... src/filter/PixelFilter.s
+	@echo ... src/filter/PortraitBlurFilter.obj
+	@echo ... src/filter/PortraitBlurFilter.i
+	@echo ... src/filter/PortraitBlurFilter.s
 	@echo ... src/filter/PseudoColorFilter.obj
 	@echo ... src/filter/PseudoColorFilter.i
 	@echo ... src/filter/PseudoColorFilter.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/matting/DnnMatteEstimator.obj
+	@echo ... src/matting/DnnMatteEstimator.i
+	@echo ... src/matting/DnnMatteEstimator.s
 	@echo ... src/output/WindowSink.obj
 	@echo ... src/output/WindowSink.i
 	@echo ... src/output/WindowSink.s

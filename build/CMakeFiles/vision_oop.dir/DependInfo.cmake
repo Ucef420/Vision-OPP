@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lenovo/Desktop/Projet cpp/src/app/VisionApp.cpp" "CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/app/VisionApp.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/background/ParticlesBackground.cpp" "CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/background/VideoLoopBackground.cpp" "CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/BackgroundCompositeFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/CartoonFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/DummyFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/DummyFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/DummyFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/EdgeFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/EdgeFilter.cpp.obj.d"
@@ -17,8 +20,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/MirrorFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/NegativeFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/NegativeFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/PixelFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/PixelFilter.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/PortraitBlurFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/filter/PseudoColorFilter.cpp" "CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/filter/PseudoColorFilter.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/main.cpp" "CMakeFiles/vision_oop.dir/src/main.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/main.cpp.obj.d"
+  "C:/Users/Lenovo/Desktop/Projet cpp/src/matting/DnnMatteEstimator.cpp" "CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/output/WindowSink.cpp" "CMakeFiles/vision_oop.dir/src/output/WindowSink.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/output/WindowSink.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/pipeline/Pipeline.cpp" "CMakeFiles/vision_oop.dir/src/pipeline/Pipeline.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/pipeline/Pipeline.cpp.obj.d"
   "C:/Users/Lenovo/Desktop/Projet cpp/src/source/CameraSource.cpp" "CMakeFiles/vision_oop.dir/src/source/CameraSource.cpp.obj" "gcc" "CMakeFiles/vision_oop.dir/src/source/CameraSource.cpp.obj.d"

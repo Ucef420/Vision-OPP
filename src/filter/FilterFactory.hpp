@@ -12,7 +12,9 @@ enum class FilterId {
     PseudoColor,
     Cartoon,
     Edge,
-    Glasses
+    PortraitBlur,
+    Glasses,
+    Background
 };
 
 std::unique_ptr<IFilter> makeFilter(FilterId id);

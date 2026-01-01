@@ -281,6 +281,81 @@ CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\FilterFactory.cpp" -o CMakeFiles\vision_oop.dir\src\filter\FilterFactory.cpp.s
 
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/filter/PortraitBlurFilter.cpp
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj -MF CMakeFiles\vision_oop.dir\src\filter\PortraitBlurFilter.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\filter\PortraitBlurFilter.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\PortraitBlurFilter.cpp"
+
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\PortraitBlurFilter.cpp" > CMakeFiles\vision_oop.dir\src\filter\PortraitBlurFilter.cpp.i
+
+CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\PortraitBlurFilter.cpp" -o CMakeFiles\vision_oop.dir\src\filter\PortraitBlurFilter.cpp.s
+
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/background/ParticlesBackground.cpp
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj -MF CMakeFiles\vision_oop.dir\src\background\ParticlesBackground.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\background\ParticlesBackground.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\background\ParticlesBackground.cpp"
+
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\background\ParticlesBackground.cpp" > CMakeFiles\vision_oop.dir\src\background\ParticlesBackground.cpp.i
+
+CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\background\ParticlesBackground.cpp" -o CMakeFiles\vision_oop.dir\src\background\ParticlesBackground.cpp.s
+
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/background/VideoLoopBackground.cpp
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj -MF CMakeFiles\vision_oop.dir\src\background\VideoLoopBackground.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\background\VideoLoopBackground.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\background\VideoLoopBackground.cpp"
+
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\background\VideoLoopBackground.cpp" > CMakeFiles\vision_oop.dir\src\background\VideoLoopBackground.cpp.i
+
+CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\background\VideoLoopBackground.cpp" -o CMakeFiles\vision_oop.dir\src\background\VideoLoopBackground.cpp.s
+
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/filter/BackgroundCompositeFilter.cpp
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj -MF CMakeFiles\vision_oop.dir\src\filter\BackgroundCompositeFilter.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\filter\BackgroundCompositeFilter.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\BackgroundCompositeFilter.cpp"
+
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\BackgroundCompositeFilter.cpp" > CMakeFiles\vision_oop.dir\src\filter\BackgroundCompositeFilter.cpp.i
+
+CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\filter\BackgroundCompositeFilter.cpp" -o CMakeFiles\vision_oop.dir\src\filter\BackgroundCompositeFilter.cpp.s
+
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj: CMakeFiles/vision_oop.dir/flags.make
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj: CMakeFiles/vision_oop.dir/includes_CXX.rsp
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj: C:/Users/Lenovo/Desktop/Projet\ cpp/src/matting/DnnMatteEstimator.cpp
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj: CMakeFiles/vision_oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj -MF CMakeFiles\vision_oop.dir\src\matting\DnnMatteEstimator.cpp.obj.d -o CMakeFiles\vision_oop.dir\src\matting\DnnMatteEstimator.cpp.obj -c "C:\Users\Lenovo\Desktop\Projet cpp\src\matting\DnnMatteEstimator.cpp"
+
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lenovo\Desktop\Projet cpp\src\matting\DnnMatteEstimator.cpp" > CMakeFiles\vision_oop.dir\src\matting\DnnMatteEstimator.cpp.i
+
+CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lenovo\Desktop\Projet cpp\src\matting\DnnMatteEstimator.cpp" -o CMakeFiles\vision_oop.dir\src\matting\DnnMatteEstimator.cpp.s
+
 # Object files for target vision_oop
 vision_oop_OBJECTS = \
 "CMakeFiles/vision_oop.dir/src/main.cpp.obj" \
@@ -296,7 +371,12 @@ vision_oop_OBJECTS = \
 "CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj" \
 "CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj" \
 "CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj" \
-"CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj"
+"CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj" \
+"CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj"
 
 # External object files for target vision_oop
 vision_oop_EXTERNAL_OBJECTS =
@@ -315,6 +395,11 @@ vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/CartoonFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/GlassesFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/MirrorFilter.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/FilterFactory.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/PortraitBlurFilter.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/background/ParticlesBackground.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/background/VideoLoopBackground.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/filter/BackgroundCompositeFilter.cpp.obj
+vision_oop.exe: CMakeFiles/vision_oop.dir/src/matting/DnnMatteEstimator.cpp.obj
 vision_oop.exe: CMakeFiles/vision_oop.dir/build.make
 vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_gapi.dll.a
 vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_stitching.dll.a
@@ -377,7 +462,7 @@ vision_oop.exe: C:/msys64/ucrt64/lib/libopencv_core.dll.a
 vision_oop.exe: CMakeFiles/vision_oop.dir/linkLibs.rsp
 vision_oop.exe: CMakeFiles/vision_oop.dir/objects1.rsp
 vision_oop.exe: CMakeFiles/vision_oop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable vision_oop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lenovo\Desktop\Projet cpp\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable vision_oop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vision_oop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

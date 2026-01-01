@@ -24,6 +24,11 @@ add_executable(vision_oop
     src/filter/GlassesFilter.cpp
     src/filter/MirrorFilter.cpp
     src/filter/FilterFactory.cpp
+    src/filter/PortraitBlurFilter.cpp
+    src/background/ParticlesBackground.cpp
+    src/background/VideoLoopBackground.cpp
+    src/filter/BackgroundCompositeFilter.cpp
+    src/matting/DnnMatteEstimator.cpp
 )
 add_executable(camera_test camera_test.cpp)
 target_link_libraries(camera_test PRIVATE ${OpenCV_LIBS})
